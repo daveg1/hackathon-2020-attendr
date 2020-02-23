@@ -94,8 +94,8 @@
                     <div class="screen" data-screen="attendance">
                       <header class="flex vAlign hAlign">
                         <div class="options flex split">
-                          <i class="fa fa-question"></i>
-                          <i onclick="screen('login')" class="fa fa-sign-out-alt"></i>
+                            <i onclick="screen('login')" class="fa fa-sign-out-alt fa-flip-horizontal"></i>
+                          <i onclick="screen('tips')" class="fa fa-question"></i>
                         </div>
                         <h3>RGU Attend</h3>
                       </header>
@@ -146,6 +146,20 @@
                           </div>
                         </div>
                       </section>
+                    </div>
+                    <div class="screen" data-screen="tips">
+                        <header>
+                            <h3>About RGU Attend</h3>
+                        </header>
+                        <section class="wrap">
+                            <p class="content">RGU Attend is a student attendence app from Attendr. Simplifying register taking across universities. </p>
+                            <p>RGU Attend consists of two apps, one for students and one for lecturers.</p>
+                            <p>Through Bluetooth Low Energy (BLE), the Student app connects to the Lecturer app to record your attendance in lectures and labs.</p>
+                            <p>This makes signing into classes easier for students since they don't have to fumble around for a pen and saves time for lecturers who don't have spend time finding the sheet of paper.</p>
+                            <div class="flex hAlign">
+                                <i class="fas fa-arrow-circle-left back" onclick="screen('attendance')"></i>
+                            </div>
+                        </section>
                     </div>
                   </div>
                 </div>

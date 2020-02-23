@@ -2,7 +2,8 @@ var links, sections, viewer, images;
 
 const screens = {
   'login': 0,
-  'attendance': 305
+  'attendance': 305,
+  'tips': 610
 }
 
 // Phone demo functions.
@@ -12,7 +13,7 @@ function screen(scr){
 
 function mark(el){
   let i = el.getElementsByClassName('marker')[0];
-  
+
   if(i.classList.contains('fa-check')){
     return;
   }
