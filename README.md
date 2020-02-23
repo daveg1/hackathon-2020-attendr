@@ -1,2 +1,2 @@
-# hackathon-2020-attendr
-Hackathon 2020 — A new and improved Attendr website design.
+# Attendr App
+A new and improved Attendr app. Produced as part of the RGU Hackathon 2020.
